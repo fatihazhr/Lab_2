@@ -3,19 +3,16 @@
     <h1>Conference Registration Form</h1>
     <form>
       <label for="fullname">Full Name:</label><br>
-      <input type="text" id="fullname" name="fullname" required><br>
+      <input type="text" id="fullname" name="fullname" required value="John Doe"><br>
       <label for="email">Email Address:</label><br>
-      <input type="email" id="email" name="email" required><br>
+      <input type="email" id="email" name="email" required value="johndoe@example.com"><br>
       <label for="age">Age:</label><br>
-      <input type="text" id="age" name="age" required><br>
-
+      <input type="text" id="age" name="age" required value="30"><br>
       <label for="gender">Gender:</label><br>
       <input type="radio" id="male" name="gender" value="male" required>
-
       <label for="male">Male</label><br>
       <input type="radio" id="female" name="gender" value="female" required>
       <label for="female">Female</label><br>
-
       <label for="country">Country of Residence:</label><br>
       <select id="country" name="country" required>
         <option value="malaysia">Malaysia</option>
@@ -24,17 +21,15 @@
         <option value="thailand">Thailand</option>
         <option value="philippines">Philippines</option>
       </select><br>
-
       <label for="areas">Areas of Interest:</label><br>
       <input type="checkbox" id="area1" name="area1" value="Software Development">
       <label for="area1">Software Development</label><br>
-      <input type="checkbox" id="area2" name="area2" value="Data Science">
+      <input type="checkbox" id="area2" name="area2" value="Data Science" checked>
       <label for="area2">Data Science</label><br>
       <input type="checkbox" id="area3" name="area3" value="Cybersecurity">
       <label for="area3">Cybersecurity</label><br>
       <input type="checkbox" id="area4" name="area4" value="Artificial Intelligence">
       <label for="area4">Artificial Intelligence</label><br>
-
       <label for="experience">Experience Level:</label><br>
       <input type="radio" id="beginner" name="experience" value="beginner" required>
       <label for="beginner">Beginner</label><br>
@@ -42,9 +37,8 @@
       <label for="intermediate">Intermediate</label><br>
       <input type="radio" id="advanced" name="experience" value="advanced" required>
       <label for="advanced">Advanced</label><br>
-      
       <label for="comments">Comments or Questions:</label><br>
-      <textarea id="comments" name="comments"></textarea><br>
+      <textarea id="comments" name="comments">I am looking forward to attending the conference!</textarea><br>
       <input type="submit" value="Register">
       <input type="reset" value="Reset">
     </form>
